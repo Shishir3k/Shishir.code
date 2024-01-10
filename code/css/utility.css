@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.aling-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.underline {
+  border: 2px solid #333;
+  border-radius: 7px;
+  width: 15vw;
+}
+
+.underline2 {
+  border: 2px solid #333;
+  border-radius: 7px;
+  width: 11vw;
+  margin-top: 3px;
+}
+
+.invert {
+  filter: invert(1);
+}

@@ -1,0 +1,33 @@
+/* SCROLLBAR Style */
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Dark color for the thumb */
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222; /* Dark color for the track */
+  border-radius: 7px;
+}
+
+/* For Firefox */
+body {
+  scrollbar-color: #333 #222;
+}
+
+/* For Microsoft Edge and Internet Explorer */
+body {
+  scrollbar-base-color: #222;
+  scrollbar-face-color: #333;
+}
+
+hr {
+  border: none;
+  background-color: black;
+  height: 11px;
+}

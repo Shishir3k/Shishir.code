@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  margin: 12px;
+  height: 11vh;
+}
+
+header nav {
+  background-color: #1b1b1b;
+  height: 11vh;
+  border-radius: 9px;
+  position: fixed;
+  width: 98.2%;
+}
+
+header nav .logo {
+  font-size: 1.8rem;
+  font-family: monospace;
+}
+
+header nav ul li {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+header nav ul {
+  gap: 37px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  border-radius: 7px;
+  margin: 12px;
+  background-color: #121212;
+  height: 70vh;
+  width: 98%;
+  overflow-y: auto;
+}
+
+.container .sec1 {
+  height: 70vh;
+}
+
+.container .sec1 .sec1-left {
+  width: 40vw;
+  line-height: 7.3vh;
+}
+
+.container .sec1 .sec1-left h2 {
+  font-size: 1.7rem;
+}
+
+.container .sec1 .sec1-left > h2 span{
+  font-family: monospace;
+  color: rgb(162, 0, 255);
+  font-size: 2rem;
+}
+
+.container .sec1 h1,
+.auto-input,
+.name {
+  font-size: 2.1rem;
+  font-family: monospace;
+  font-weight: 100;
+}
+
+.container .sec1 .sec1-right .img {
+  height: 55vh;
+  border-radius: 7px;
+}
+
+.heading {
+  margin-top: 12px;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+.heading span {
+  font-family: monospace;
+  font-weight: 200;
+}
+
+.container .sec2 {
+  height: 60vh;
+}
+
+.container .sec2 .sec2-left {
+  width: 40vw;
+}
+
+.container .sec2 .sec2-left .img {
+  height: 55vh;
+}
+
+.container .sec2 .sec2-right {
+  width: 40vw;
+}
+
+.container .sec2 .sec2-right p {
+  font-family: cursive;
+  font-size: 1.3rem;
+}
+
+.container .sec2 .sec2-right p > span {
+  font-family: monospace;
+}
+
+.container .sec3 {
+  max-height: 60vh;
+}
+
+.container .sec3 .cardContainer {
+  gap: 25px;
+  max-height: 100%;
+  overflow-y: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container .sec3 .card {
+  width: 230px;
+  height: 52vh;
+  border-radius: 9px;
+  padding: 9px;
+  background-color: #1b1b1b;
+  position: relative;
+}
+
+.container .sec3 .card > * {
+  padding-top: 7px;
+}
+
+.container .sec3 .card img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.container .sec3 .card h4{
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 3px;
+  color: gray;
+}
+
+.container .sec3 .card p{
+  font-size: 0.9rem;
+  color: rgb(141, 141, 141);
+}
+
+.container .sec3 .card button{
+  border: none;
+  border-radius: 21px;
+  padding: 7px 7px 7px 7px;
+  background-color: #121212;
+  color: white;
+  font-size: 1rem;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.container .sec3 .card button:hover{
+  background-color: #1b1b1b;
+  cursor: pointer;
+}
+
+
+
+footer {
+  height: 11vh;
+}
+
+footer nav {
+  background-color: #1b1b1b;
+  height: 11vh;
+  border-radius: 9px;
+  position: fixed;
+  width: 98.2%;
+  margin: 0 0 0 12px;
+  padding: auto;
+}
+
+footer nav .foot-left {
+  width: 45vw;
+}
+
+footer nav .foot-left h1 {
+  font-size: 1.8rem;
+  font-family: monospace;
+}
+
+footer nav .foot-left .vertical {
+  border: 1px solid #333;
+  height: 6vh;
+  margin-left: 4px;
+}
+
+footer nav .foot-left p {
+  color: rgb(131, 131, 131);
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+footer nav .foot-right {
+  width: 14vw;
+  gap: 9px;
+}
+
+footer nav .foot-right a {
+  text-decoration: none;
+}
