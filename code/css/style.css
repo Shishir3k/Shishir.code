@@ -1,3 +1,8 @@
+/* Font Families */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -116,6 +121,7 @@ header nav ul li a {
 
 .container .sec2 .sec2-right p > span {
   font-family: monospace;
+  color: rgb(162, 0, 255);
 }
 
 .container .sec3 {
@@ -179,8 +185,6 @@ header nav ul li a {
   cursor: pointer;
 }
 
-
-
 footer {
   height: 11vh;
 }
@@ -223,4 +227,85 @@ footer nav .foot-right {
 
 footer nav .foot-right a {
   text-decoration: none;
+}
+
+.sec1-about{
+  height: 70vh;
+  position: relative;
+}
+
+.sec1-about img{
+  height: 69.4vh;
+  filter: contrast(200%);
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.sec1-about .content{
+  position: relative;
+  color: black;
+  font-family: 'Noto Serif SC', serif;
+  height: 50vh;
+}
+
+.sec1-about .content h2{
+  font-size: 2.7rem;
+  margin-left: 107px;
+}
+
+.sec1-about .content h1{
+  font-size: 5rem;
+  margin-top: 130px;
+  margin-left: -207px;
+}
+
+.sec2-about{
+  height: 70vh;
+  width: 70%;
+  flex-direction: column;
+  margin: auto;
+  line-height: 25px;
+}
+
+.sec2-about h1{
+ font-size: 2rem;
+ font-family: cursive;
+}
+
+.sec2-about h1 span{
+  font-family: monospace;
+  font-size: 2.1rem;
+}
+
+.sec2-about p{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sec3-about{
+  height: 70vh;
+}
+
+.sec3-about-left{
+  width: 25vh;
+}
+
+.sec3-about-left img{
+  height: 55vh;
+}
+
+.sec3-about-right{
+  width: 75vh;
+}
+
+.sec3-about-right p {
+  font-family: cursive;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.sec3-about-right p > span {
+  font-family: monospace;
+  color: rgb(162, 0, 255);
 }
