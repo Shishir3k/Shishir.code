@@ -169,18 +169,18 @@ header nav ul li a {
   color: rgb(141, 141, 141);
 }
 
-.container .sec3 .card button{
+.container .sec3 .card .btn button{
   border: none;
-  border-radius: 21px;
-  padding: 7px 7px 7px 7px;
+  border-radius: 15px;
+  padding: 7px 15px 7px 15px;
   background-color: #121212;
   color: white;
   font-size: 1rem;
   font-family: monospace;
-  font-weight: 500;
+  font-weight: 600;
 }
 
-.container .sec3 .card button:hover{
+.container .sec3 .card .btn button:hover{
   background-color: #1b1b1b;
   cursor: pointer;
 }
@@ -244,7 +244,7 @@ footer nav .foot-right a {
 
 .sec1-about .content{
   position: relative;
-  color: black;
+  color: #021852;
   font-family: 'Noto Serif SC', serif;
   height: 50vh;
 }
@@ -308,4 +308,114 @@ footer nav .foot-right a {
 .sec3-about-right p > span {
   font-family: monospace;
   color: rgb(162, 0, 255);
+}
+
+.container .sec1-courses .cardContainer{
+  gap: 25px;
+  max-height: 100%;
+  overflow-y: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container .sec1-courses .cardContainer .card{
+  width: 230px;
+  height: 52vh;
+  border-radius: 9px;
+  padding: 9px;
+  background-color: #1b1b1b;
+  position: relative;
+}
+
+.container .sec1-courses .cardContainer .card > * {
+  padding-top: 7px;
+}
+
+.container .sec1-courses .cardContainer .card img{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.container .sec1-courses .cardContainer .card h4{
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 3px;
+  color: gray;
+}
+.container .sec1-courses .cardContainer .card p{
+  font-size: 0.9rem;
+  color: rgb(141, 141, 141);
+}
+.container .sec1-courses .cardContainer .card .btn button{
+  border: none;
+  border-radius: 15px;
+  padding: 7px 15px 7px 15px;
+  background-color: #121212;
+  color: white;
+  font-size: 1rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.container .sec1-courses .card .btn button:hover{
+  background-color: #1b1b1b;
+  cursor: pointer;
+}
+
+.container .sec2-courses .cardContainer{
+  gap: 25px;
+  max-height: 100%;
+  overflow-y: auto;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container .sec2-courses .cardContainer .card{
+  width: 230px;
+  height: 52vh;
+  border-radius: 9px;
+  padding: 9px;
+  background-color: #1b1b1b;
+  position: relative;
+}
+
+.container .sec2-courses .cardContainer .card > * {
+  padding-top: 7px;
+}
+
+.container .sec2-courses .cardContainer .card img{
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.container .sec2-courses .cardContainer .card h4{
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 3px;
+  color: gray;
+}
+.container .sec2-courses .cardContainer .card p{
+  font-size: 0.9rem;
+  color: rgb(141, 141, 141);
+}
+.container .sec2-courses .cardContainer .card .btn button{
+  border: none;
+  border-radius: 15px;
+  padding: 7px 15px 7px 15px;
+  background-color: #121212;
+  color: white;
+  font-size: 1rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.container .sec2-courses .card .btn button:hover{
+  background-color: #1b1b1b;
+  cursor: pointer;
 }
