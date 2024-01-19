@@ -1,7 +1,5 @@
 /* Font Families */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap");
 
 * {
   margin: 0;
@@ -68,7 +66,7 @@ header nav ul li a {
   font-size: 1.7rem;
 }
 
-.container .sec1 .sec1-left > h2 span{
+.container .sec1 .sec1-left > h2 span {
   font-family: monospace;
   color: rgb(162, 0, 255);
   font-size: 2rem;
@@ -157,19 +155,19 @@ header nav ul li a {
   border-radius: 12px;
 }
 
-.container .sec3 .card h4{
+.container .sec3 .card h4 {
   font-weight: 500;
   font-size: 0.8rem;
   padding: 3px;
   color: gray;
 }
 
-.container .sec3 .card p{
+.container .sec3 .card p {
   font-size: 0.9rem;
   color: rgb(141, 141, 141);
 }
 
-.container .sec3 .card .btn button{
+.container .sec3 .card .btn button {
   border: none;
   border-radius: 15px;
   padding: 7px 15px 7px 15px;
@@ -180,7 +178,7 @@ header nav ul li a {
   font-weight: 600;
 }
 
-.container .sec3 .card .btn button:hover{
+.container .sec3 .card .btn button:hover {
   background-color: #1b1b1b;
   cursor: pointer;
 }
@@ -229,12 +227,12 @@ footer nav .foot-right a {
   text-decoration: none;
 }
 
-.sec1-about{
+.sec1-about {
   height: 70vh;
   position: relative;
 }
 
-.sec1-about img{
+.sec1-about img {
   height: 69.4vh;
   filter: contrast(200%);
   width: 100%;
@@ -242,25 +240,25 @@ footer nav .foot-right a {
   position: absolute;
 }
 
-.sec1-about .content{
+.sec1-about .content {
   position: relative;
   color: #021852;
-  font-family: 'Noto Serif SC', serif;
+  font-family: "Noto Serif SC", serif;
   height: 50vh;
 }
 
-.sec1-about .content h2{
+.sec1-about .content h2 {
   font-size: 2.7rem;
   margin-left: 107px;
 }
 
-.sec1-about .content h1{
+.sec1-about .content h1 {
   font-size: 5rem;
   margin-top: 130px;
   margin-left: -207px;
 }
 
-.sec2-about{
+.sec2-about {
   height: 70vh;
   width: 70%;
   flex-direction: column;
@@ -268,34 +266,34 @@ footer nav .foot-right a {
   line-height: 25px;
 }
 
-.sec2-about h1{
- font-size: 2rem;
- font-family: cursive;
+.sec2-about h1 {
+  font-size: 2rem;
+  font-family: cursive;
 }
 
-.sec2-about h1 span{
+.sec2-about h1 span {
   font-family: monospace;
   font-size: 2.1rem;
 }
 
-.sec2-about p{
+.sec2-about p {
   margin-top: 15px;
   text-align: center;
 }
 
-.sec3-about{
+.sec3-about {
   height: 70vh;
 }
 
-.sec3-about-left{
+.sec3-about-left {
   width: 25vh;
 }
 
-.sec3-about-left img{
+.sec3-about-left img {
   height: 55vh;
 }
 
-.sec3-about-right{
+.sec3-about-right {
   width: 75vh;
 }
 
@@ -310,7 +308,7 @@ footer nav .foot-right a {
   color: rgb(162, 0, 255);
 }
 
-.container .sec1-courses .cardContainer{
+.container .sec1-courses .cardContainer {
   gap: 25px;
   max-height: 100%;
   overflow-y: auto;
@@ -320,7 +318,7 @@ footer nav .foot-right a {
   margin-bottom: 15px;
 }
 
-.container .sec1-courses .cardContainer .card{
+.container .sec1-courses .cardContainer .card {
   width: 230px;
   height: 52vh;
   border-radius: 9px;
@@ -333,23 +331,23 @@ footer nav .foot-right a {
   padding-top: 7px;
 }
 
-.container .sec1-courses .cardContainer .card img{
+.container .sec1-courses .cardContainer .card img {
   width: 100%;
   object-fit: contain;
   border-radius: 12px;
 }
 
-.container .sec1-courses .cardContainer .card h4{
+.container .sec1-courses .cardContainer .card h4 {
   font-weight: 500;
   font-size: 0.8rem;
   padding: 3px;
   color: gray;
 }
-.container .sec1-courses .cardContainer .card p{
+.container .sec1-courses .cardContainer .card p {
   font-size: 0.9rem;
   color: rgb(141, 141, 141);
 }
-.container .sec1-courses .cardContainer .card .btn button{
+.container .sec1-courses .cardContainer .card .btn button {
   border: none;
   border-radius: 15px;
   padding: 7px 15px 7px 15px;
@@ -360,12 +358,12 @@ footer nav .foot-right a {
   font-weight: 600;
 }
 
-.container .sec1-courses .card .btn button:hover{
+.container .sec1-courses .card .btn button:hover {
   background-color: #1b1b1b;
   cursor: pointer;
 }
 
-.container .sec2-courses .cardContainer{
+.container .sec2-courses .cardContainer {
   gap: 25px;
   max-height: 100%;
   overflow-y: auto;
@@ -375,7 +373,7 @@ footer nav .foot-right a {
   margin-bottom: 15px;
 }
 
-.container .sec2-courses .cardContainer .card{
+.container .sec2-courses .cardContainer .card {
   width: 230px;
   height: 52vh;
   border-radius: 9px;
@@ -388,23 +386,23 @@ footer nav .foot-right a {
   padding-top: 7px;
 }
 
-.container .sec2-courses .cardContainer .card img{
+.container .sec2-courses .cardContainer .card img {
   width: 100%;
   object-fit: contain;
   border-radius: 12px;
 }
 
-.container .sec2-courses .cardContainer .card h4{
+.container .sec2-courses .cardContainer .card h4 {
   font-weight: 500;
   font-size: 0.8rem;
   padding: 3px;
   color: gray;
 }
-.container .sec2-courses .cardContainer .card p{
+.container .sec2-courses .cardContainer .card p {
   font-size: 0.9rem;
   color: rgb(141, 141, 141);
 }
-.container .sec2-courses .cardContainer .card .btn button{
+.container .sec2-courses .cardContainer .card .btn button {
   border: none;
   border-radius: 15px;
   padding: 7px 15px 7px 15px;
@@ -415,7 +413,130 @@ footer nav .foot-right a {
   font-weight: 600;
 }
 
-.container .sec2-courses .card .btn button:hover{
+.container .sec2-courses .card .btn button:hover {
   background-color: #1b1b1b;
   cursor: pointer;
+}
+
+.card-tut {
+  height: 13rem;
+  width: 15rem;
+  margin: 1rem;
+  border: 1px solid #000000;
+  background-color: #1b1b1b;
+  border-radius: 7px;
+  padding: 1.5rem;
+}
+
+.card-tut img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.card-tut h1 {
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.card-tut h1 span {
+  font-family: monospace;
+}
+
+.card-tut button{
+  border: none;
+  background-color: #121212;
+  color: white;
+  padding: 9px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.card-tut button:hover{
+  cursor: pointer;
+  background-color: #252525;
+  font-weight: 600;
+}
+
+.card-tut button a{
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.containerWT{
+  margin: 12px;
+}
+
+.containerWT aside{
+  border-radius: 7px;
+  background-color: #121212;
+  height: 70vh;
+  width: 22vw;
+  overflow-y: auto;
+}
+
+.containerWT aside .content{
+  padding: 12px;
+}
+
+.containerWT aside .content ul{
+  padding: 7px;
+}
+
+.containerWT aside .content ul li a{
+ color: white;
+ text-decoration: none;
+ font-weight: 500;
+ font-size: 1.01rem;
+}
+
+.containerWT aside .content ul li a:hover{
+  text-decoration: underline;
+  color: rgb(162, 0, 255);
+}
+
+.containerWT .verticalWT{
+  height: 100%;
+  width: 12px;
+  background-color: #121212;
+}
+
+.containerWT main{
+  border-radius: 7px;
+  background-color: #121212;
+  height: 70vh;
+  width: 80vw;
+  overflow-y: auto;
+}
+
+.containerWT main .materialcontainer{
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+
+.containerWT main .materialcontainer h1{
+  font-size: 2.3rem;
+}
+
+.containerWT main .materialcontainer .material h2{
+  font-size: 1.7rem;
+  line-height: 7vh;
+  padding-top: 20px;
+}
+
+.containerWT main .materialcontainer .material ul{
+  padding: 7px 0 7px 50px;
+  line-height: 3.7vh;
+  font-size: 1.07rem;
+}
+
+.containerWT main .materialcontainer .material ul li a{
+  color: rgb(184, 61, 255);
+}
+
+.containerWT main .materialcontainer .material p{
+  padding: 7px 0 7px 50px;
+  line-height: 3.7vh;
+  font-size: 1.07rem;
 }
