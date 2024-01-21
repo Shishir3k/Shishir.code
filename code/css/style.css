@@ -218,6 +218,11 @@ footer nav .foot-left p {
   margin-left: 5px;
 }
 
+footer nav .foot-left p a {
+  color: rgb(131, 131, 131);
+  text-decoration: none;
+}
+
 footer nav .foot-right {
   width: 14vw;
   gap: 9px;
@@ -442,7 +447,7 @@ footer nav .foot-right a {
   font-family: monospace;
 }
 
-.card-tut button{
+.card-tut button {
   border: none;
   background-color: #121212;
   color: white;
@@ -451,23 +456,23 @@ footer nav .foot-right a {
   font-size: 0.9rem;
 }
 
-.card-tut button:hover{
+.card-tut button:hover {
   cursor: pointer;
   background-color: #252525;
   font-weight: 600;
 }
 
-.card-tut button a{
+.card-tut button a {
   color: white;
   text-decoration: none;
   font-family: cursive;
 }
 
-.containerWT{
+.containerWT {
   margin: 12px;
 }
 
-.containerWT aside{
+.containerWT aside {
   border-radius: 7px;
   background-color: #121212;
   height: 70vh;
@@ -475,33 +480,33 @@ footer nav .foot-right a {
   overflow-y: auto;
 }
 
-.containerWT aside .content{
+.containerWT aside .content {
   padding: 12px;
 }
 
-.containerWT aside .content ul{
+.containerWT aside .content ul {
   padding: 7px;
 }
 
-.containerWT aside .content ul li a{
- color: white;
- text-decoration: none;
- font-weight: 500;
- font-size: 1.01rem;
+.containerWT aside .content ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.01rem;
 }
 
-.containerWT aside .content ul li a:hover{
+.containerWT aside .content ul li a:hover {
   text-decoration: underline;
   color: rgb(162, 0, 255);
 }
 
-.containerWT .verticalWT{
+.containerWT .verticalWT {
   height: 100%;
   width: 12px;
   background-color: #121212;
 }
 
-.containerWT main{
+.containerWT main {
   border-radius: 7px;
   background-color: #121212;
   height: 70vh;
@@ -509,34 +514,55 @@ footer nav .foot-right a {
   overflow-y: auto;
 }
 
-.containerWT main .materialcontainer{
+.containerWT main .materialcontainer {
   padding: 20px;
   margin: auto;
   width: 90%;
+  font-weight: 500;
 }
 
-.containerWT main .materialcontainer h1{
+.containerWT main .materialcontainer h1 {
   font-size: 2.3rem;
 }
 
-.containerWT main .materialcontainer .material h2{
+.containerWT main .materialcontainer .material h2 {
   font-size: 1.7rem;
   line-height: 7vh;
   padding-top: 20px;
 }
 
-.containerWT main .materialcontainer .material ul{
-  padding: 7px 0 7px 50px;
+.containerWT main .materialcontainer .material .data h3{
+  font-weight: 700;
+}
+
+.containerWT main .materialcontainer .material .data h3 p{
+  font-weight: 500;
+}
+
+.containerWT main .materialcontainer .material .data p span{
+  font-weight: 600;
+  font-style: italic;
+}
+
+.containerWT main .materialcontainer .material .data {
+  padding: 7px 0 7px 30px;
+  
+}
+
+.containerWT main .materialcontainer .material .data ul {
   line-height: 3.7vh;
   font-size: 1.07rem;
 }
 
-.containerWT main .materialcontainer .material ul li a{
+.containerWT main .materialcontainer .material .data ul li a {
   color: rgb(184, 61, 255);
 }
 
-.containerWT main .materialcontainer .material p{
-  padding: 7px 0 7px 50px;
+.containerWT main .materialcontainer .material .data p {
   line-height: 3.7vh;
   font-size: 1.07rem;
+}
+
+.containerWT main .materialcontainer .material .data pre{
+  font-weight: 400;
 }
