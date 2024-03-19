@@ -531,22 +531,21 @@ footer nav .foot-right a {
   padding-top: 20px;
 }
 
-.containerWT main .materialcontainer .material .data h3{
+.containerWT main .materialcontainer .material .data h3 {
   font-weight: 700;
 }
 
-.containerWT main .materialcontainer .material .data h3 p{
+.containerWT main .materialcontainer .material .data h3 p {
   font-weight: 500;
 }
 
-.containerWT main .materialcontainer .material .data p span{
+.containerWT main .materialcontainer .material .data p span {
   font-weight: 600;
   font-style: italic;
 }
 
 .containerWT main .materialcontainer .material .data {
   padding: 7px 0 7px 30px;
-  
 }
 
 .containerWT main .materialcontainer .material .data ul {
@@ -563,6 +562,25 @@ footer nav .foot-right a {
   font-size: 1.07rem;
 }
 
-.containerWT main .materialcontainer .material .data pre{
+.containerWT main .materialcontainer .material .data pre {
   font-weight: 400;
+}
+
+.containerWT main .materialcontainer .material .data .dark-table {
+  background-color: #1b1b1b;
+  color: #fff;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+.containerWT main .materialcontainer .material .data .dark-table th,
+.containerWT main .materialcontainer .material .data .dark-table td {
+  padding: 10px;
+  border: 1px solid #eeeeee;
+  text-align: center;
+}
+
+.containerWT main .materialcontainer .material .data .dark-table th {
+  background-color: #2e2e2e;
+  border: none;
 }
